@@ -151,12 +151,12 @@ def main():
         else:
             eval(f'st.{charts_mapping[chart]}')(df)
 
-    col1, col2 = st.columns(2)
+    # col1, col2 = st.columns(2)
     video1, video2 = get_video_bytes()
     st.markdown('### 粉色海洋mv')
-    col1.video(video1, format='video/mp4')
+    st.video(video1, format='video/mp4')
     st.markdown('### MOjito mv')
-    col2.video(video2, format='video/mp4', start_time=2)
+    st.video(video2, format='video/mp4', start_time=2)
 
 
 # class MyRandom:
