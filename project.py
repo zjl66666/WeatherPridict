@@ -52,7 +52,7 @@ def main():
         st.session_state.first_visit = False
 
     if st.session_state.first_visit:
-        st.session_state.date_time = datetime.datetime.now()   + datetime.timedelta(hours=8)
+        st.session_state.date_time = datetime.datetime.now() #  + datetime.timedelta(hours=8)
         # st.session_state.random_chart_index = random.choice(range(len(charts_mapping)))
         # st.session_state.my_random = MyRandom(random.randint(1, 1000000))
         st.session_state.city_mapping, st.session_state.random_city_index = get_city_mapping()
