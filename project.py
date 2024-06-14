@@ -36,7 +36,7 @@ Wind_night_emo = emoji.emojize('WindNight' + ':wind_chime::milky_way:')
 
 # beijing = pytz.timezone('Asia/Beijing')
 def main():
-    st.set_page_config(page_title="粉色Mojito", page_icon=":rainbow:", layout="wide", initial_sidebar_state="auto")
+    st.set_page_config(page_title="网站demo By李嘉荣", page_icon=":rainbow:", layout="wide", initial_sidebar_state="auto")
     st.title('粉色Mojito:sparkling_heart:')
     st.markdown('<br>', unsafe_allow_html=True)
     st.markdown('<br>', unsafe_allow_html=True)
